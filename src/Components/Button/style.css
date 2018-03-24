@@ -1,0 +1,75 @@
+.Button {
+  display: inline-block;
+  border: none;
+  color: #fff;
+  line-height: 1.5;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+
+/**
+ * Sizes
+ */
+.Button-Size-Small {
+  padding: .25rem .5rem;
+  font-size: .875rem;
+}
+.Button-Size-Medium {
+  padding: .375rem .75rem;
+  font-size: 1rem;
+}
+.Button-Size-Large {
+  padding: .5rem 1rem;
+  font-size: 1.25rem;
+}
+
+
+/**
+ * Types
+ */
+
+.Button.Primary {
+  background-color: #007bff;
+}
+.Button.Secondary {
+  background-color: #6c757d;
+}
+.Button.Success {
+  background-color: #28a745;
+}
+.Button.Danger {
+  background-color: #dc3545;
+}
+.Button.Warning {
+  background-color: #ffc107;
+}
+.Button.Info {
+  background-color: #17a2b8;
+}
+.Button.Light {
+  background-color: #f8f9fa;
+  color: #000;
+}
+.Button.Dark {
+  background-color: #343a40;
+}
+.Button.Link {
+  background-color: transparent;
+  color: #000;
+}
+
+/**
+ *  Behavior
+ */
+.Button.Primary:hover,
+.Button.Secondary:hover,
+.Button.Success:hover,
+.Button.Danger:hover,
+.Button.Warning:hover,
+.Button.Info:hover,
+.Button.Light:hover,
+.Button.Dark:hover,
+.Button.Link:hover {
+  filter: brightness(85%);
+}

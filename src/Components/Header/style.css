@@ -1,0 +1,28 @@
+h1.Header,
+h2.Header,
+h3.Header,
+h4.Header,
+h5.Header,
+h6.Header {
+  margin-bottom: .5rem;
+  line-height: 1.2;
+}
+
+h1.Header {
+  font-size: 2.5rem;
+}
+h2.Header {
+  font-size: 2rem;
+}
+h3.Header {
+  font-size: 1.75rem;
+}
+h4.Header {
+  font-size: 1.5rem;
+}
+h5.Header {
+  font-size: 1.25rem;
+}
+h6.Header {
+  font-size: 1rem;
+}

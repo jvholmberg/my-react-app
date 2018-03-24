@@ -1,0 +1,33 @@
+.Section {
+  display: block;
+  padding: 5rem 0;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+
+/**
+ * Appearances
+ */
+.Section-Normal {
+  color: #000;
+}
+.Section-Inverted {
+  background-color: #343a40;
+  color: #fff;
+}
+
+
+/**
+ * Alignment
+ */
+.Section-Left-Aligned {
+  text-align: left;
+}
+.Section-Center-Aligned {
+ text-align: center;
+}
+.Section-Right-Aligned {
+ text-align: right;
+}

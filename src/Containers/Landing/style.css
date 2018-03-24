@@ -1,0 +1,15 @@
+.GetStarted {
+  padding: 15rem 5rem;
+}
+.GetStarted h1 {
+  margin-bottom: 1rem;
+}
+.GetStarted h4 {
+  margin-bottom: 2rem;
+}
+.GetStarted button {
+  margin-bottom: 1rem;
+}
+.GetStarted a {
+  display: block;
+}

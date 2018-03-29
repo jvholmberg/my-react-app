@@ -5,8 +5,8 @@ import Footer from './Footer';
 import Grid from './Grid';
 import Header from './Header';
 import Logo from './Logo';
-import Navigation from './Navigation';
 import Section from './Section';
+import NavLinkExtended from './NavLinkExtended';
 
 /**
  * Appends a className to the provided string from props of type boolean
@@ -43,7 +43,7 @@ export {
   Grid,
   Header,
   Logo,
-  Navigation,
+  NavLinkExtended,
   Section,
 
   // Utility functions

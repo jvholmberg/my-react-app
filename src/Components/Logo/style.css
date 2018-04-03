@@ -10,3 +10,11 @@
   width: 2rem;
   height: 2rem;
 }
+.Logo.Logo-Xsmall {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.Logo.Logo-Xxsmall {
+  width: 1rem;
+  height: 1rem;
+}

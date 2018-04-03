@@ -6,11 +6,9 @@ import { connect } from 'react-redux';
 // Project dependecies
 import { Logo } from '../../Components';
 
-// Reducers
+// Reducers/Selectors
 import NavigationReducer, { toggleNavigation } from './reducer';
-
-// Selectors
-import { isNavigationOpen } from './selectors';
+import { isNavigationOpen } from './selector';
 
 // Styling (TODO: Add babel-plugin-react-css-modules)
 import './style.css';
@@ -27,25 +25,24 @@ const mapDispatchToProps = (dispatch) => ({
   }, dispatch),
 });
 
-class Navigation extends Component {
-  render() {
-    const { children, isOpen, actions } = this.props;
-    return (
-      <div className='Navigation_Container'>
-        <div className='Navigation_Logo'>
-          <Logo className='fab fa-react' small />
-        </div>
-        <div
-          className='Navigation_Burger'
-          onClick={() => actions.toggleNavigation(!isOpen)}>
-          <Logo className='fas fa-bars' small />
-        </div>
-        <div className={`Navigation_Links${isOpen ? ' Navigation_Drawer' : ''}`}>
-          { children }
-        </div>
-      </div>
-    );
-  }
-}
+const Navigation = ({ children, isOpen, actions }) => (
+  <div className='Navigation_Container'>
+    <div className='Navigation_Logo'>
+      <Logo icon='fab fa-react' small />
+    </div>
+    <div
+      className='Navigation_Burger'
+      onClick={() => actions.toggleNavigation(!isOpen)}>
+      <Burger isOpen={isOpen} />
+    </div>
+    <div className={`Navigation_Links${isOpen ? ' Open' : ''}`}>
+      { children }
+    </div>
+  </div>
+);
+
+const Burger = ({ isOpen }) =>
+  <Logo icon={isOpen ? 'fas fa-times' : 'fas fa-bars'} xsmall />;
+
 export default connect(mapStateToProps, mapDispatchToProps)(Navigation);
 export { NavigationReducer }

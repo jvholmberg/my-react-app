@@ -15,16 +15,32 @@
 .Navigation_Burger {
   display: none;
   float: right;
-  transition: ease-in .2s;
+  padding: .25rem;
+  color: #000;
+  transition: ease-in .1s;
 }
 .Navigation_Burger:hover {
   cursor: pointer;
   color: #007bff;
-  transition: ease-in .2s;
+  transition: ease-in .1s;
 }
 
+.Navigation_Links_Container {
+
+}
 .Navigation_Links {
 
+}
+.Navigation_Links a {
+  padding-left: 2rem;
+  line-height: 2rem;
+  text-decoration: none;
+  color: #000;
+  transition: ease-in .1s;
+}
+.Navigation_Links a:hover {
+  color: #007bff;
+  transition: ease-in .1s;
 }
 
 @media (max-width: 991px) {
@@ -33,6 +49,30 @@
   }
   .Navigation_Links {
     display: none;
+  }
+  .Navigation_Links.Open {
+    position: fixed;
+    left: 0;
+    top: 4rem;
+    display: block;
+    padding: .5rem 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: #fff;
+    box-sizing: border-box;
+  }
+  .Navigation_Links.Open a {
+    display: block;
+    padding: .5rem 0;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #000;
+    transition: ease-in .1s;
+  }
+  .Navigation_Links.Open a:hover {
+    color: #007bff;
+    transition: ease-in .1s;
   }
 }
 

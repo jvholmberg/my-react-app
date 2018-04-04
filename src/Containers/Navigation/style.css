@@ -42,6 +42,9 @@
   color: #007bff;
   transition: ease-in .1s;
 }
+.Navigation_Links a.Active {
+  color: #007bff;
+}
 
 @media (max-width: 991px) {
   .Navigation_Burger {
@@ -73,6 +76,9 @@
   .Navigation_Links.Open a:hover {
     color: #007bff;
     transition: ease-in .1s;
+  }
+  .Navigation_Links.Open a.Active {
+    color: #007bff;
   }
 }
 

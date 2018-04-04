@@ -1,6 +1,5 @@
 // Core dependecies
 import React from 'react';
-import { connect } from 'react-redux';
 import { Route, withRouter } from 'react-router-dom';
 
 // Project dependecies
@@ -15,12 +14,12 @@ import './App.css';
 const App = () => (
   <div className='App_Container'>
     <Navigation>
-      <NavLinkExtended to='dashboard'>Dashboard</NavLinkExtended>
-      <NavLinkExtended to=''>Home</NavLinkExtended>
+      <NavLinkExtended activeClassName='Active' to='/dashboard'>Dashboard</NavLinkExtended>
+      <NavLinkExtended activeClassName='Active' to='/'>Home</NavLinkExtended>
     </Navigation>
-    <Route exact path="/dashboard" component={Dashboard} />
     <Route exact path="/" component={Landing} />
+    <Route exact path="/dashboard" component={Dashboard} />
   </div>
 );
 
-export default withRouter(connect(null, null)(App));
+export default withRouter(App);

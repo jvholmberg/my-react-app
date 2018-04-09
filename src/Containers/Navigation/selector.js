@@ -1,4 +1,10 @@
 import _ from 'lodash';
 
-export const isNavigationOpen = (state) =>
-  _.get(state, 'navigation.isOpen', false);
+export const getSiteDropdownStatus = (state) =>
+  _.get(state, 'navigation.isSiteDropdownOpen', false);
+
+export const getUserDropdownStatus = (state) =>
+  _.get(state, 'navigation.isUserDropdownOpen', false);
+
+export const getUser = (state) =>
+  _.get(state, 'user.fullName', 'Johan Holmberg');

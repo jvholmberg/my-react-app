@@ -7,7 +7,7 @@ export const toggleUserDropdown = (isOpen) =>
   ({ type: `${NAVIGATION_TOGGLE}_USER`, isOpen });
 
 const defaultState = {
-  loggedIn: false,
+  isLoggedIn: false,
   isSiteDropdownOpen: false,
   isUserDropdownOpen: false,
 };

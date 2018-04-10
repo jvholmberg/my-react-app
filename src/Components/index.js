@@ -6,6 +6,7 @@ import Grid from './Grid';
 import Header from './Header';
 import Logo from './Logo';
 import Section from './Section';
+import TextInput from './TextInput';
 import NavLinkExtended from './NavLinkExtended';
 
 /**
@@ -45,6 +46,7 @@ export {
   Logo,
   NavLinkExtended,
   Section,
+  TextInput,
 
   // Utility functions
   CraftClassName,

@@ -20,17 +20,13 @@
   color: #000;
   transition: ease-in .1s;
 }
-.Navigation_Burger:hover {
-  cursor: pointer;
-  color: #e83f3f;
-  transition: ease-in .1s;
-}
 .Navigation_User {
   float: right;
   color: #000;
   transition: ease-in .1s;
 }
-.Navigation_User:hover {
+.Navigation_User:hover,
+.Navigation_Burger:hover {
   cursor: pointer;
   color: #e83f3f;
   transition: ease-in .1s;
@@ -40,6 +36,7 @@
   padding-right: 1rem;
   float: left;
   color: #000 !important;
+  font-weight: 300;
   line-height: 2rem;
 }
 
@@ -48,6 +45,7 @@
 }
 .Navigation_Links {
   display: inline-block;
+  font-weight: 300;
 }
 .Navigation_Links a {
   padding-left: 2rem;

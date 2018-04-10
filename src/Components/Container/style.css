@@ -1,13 +1,15 @@
 .Container {
   width: 100%;
   overflow: hidden;
-  box-sizing: border-box
-}
-.Container-Regular {
-  margin: 0 auto;
-  padding: 5rem 0;
-  max-width: 1080px;
+  box-sizing: border-box;
 }
 .Container-Full {
-
+  background-color: #efefef;
+}
+.Container-Regular {
+  margin: 1rem auto;
+  padding: 5rem 0;
+  max-width: 1080px;
+  background-color: #fff;
+  border: 1px solid #e4e4e4;
 }

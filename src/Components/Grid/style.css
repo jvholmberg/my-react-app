@@ -2,6 +2,7 @@
   display: block;
   margin: 0 auto;
   float: left;
+  min-height: 1px;
 }
 
 /* Extra small devices (portrait phones, less than 576px) */

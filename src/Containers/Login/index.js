@@ -1,20 +1,35 @@
 import React from 'react';
-import { Container, Grid, Footer, TextInput, Button } from '../../Components';
+import { bindActionCreators } from 'redux';
+import { connect } from 'react-redux';
 
-const Login = ()  => (
+import { Container, Grid, Footer } from '../../Components';
+import LoginForm from './LoginForm';
+import LoginFormReducer, { submitLoginForm } from './reducer';
+
+const mapStateToProps = (state) => {
+  return ({});
+};
+
+const mapDispatchToProps = (dispatch) => ({
+  actions: bindActionCreators({
+    submitLoginForm,
+  }, dispatch),
+});
+
+const Login = ({ actions }) => (
   <Container full>
     <Container regular>
       <Grid col3></Grid>
       <Grid col6>
-        <TextInput name='username' label='Username' primary required />
-        <TextInput name='password' label='Password' primary password required />
-        <Button primary medium>
-          Login
-        </Button>
+        <LoginForm onSubmit={(values) => {
+          console.log(values);
+          actions.submitLoginForm(values);
+        }} />
       </Grid>
       <Grid col3></Grid>
     </Container>
     <Footer />
   </Container>
 );
-export default Login;
+export default connect(mapStateToProps, mapDispatchToProps)(Login);
+export { LoginFormReducer }

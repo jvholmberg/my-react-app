@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Grid Empty matches snapshot 1`] = `
+<div
+  className="Grid Grid-Col12"
+/>
+`;
+
+exports[`Grid With className matches snapshot 1`] = `
+<div
+  className="className Grid Grid-Col12"
+/>
+`;

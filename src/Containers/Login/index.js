@@ -16,7 +16,7 @@ const mapDispatchToProps = (dispatch) => ({
 });
 
 const Login = ({ actions }) => (
-  <Container full>
+  <Container full className='Login-Page'>
     <Container regular>
       <Grid col3></Grid>
       <Grid col6>

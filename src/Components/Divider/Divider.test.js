@@ -1,0 +1,13 @@
+import React from 'react';
+import renderer from 'react-test-renderer';
+
+import Divider from './';
+
+describe('Divider', () => {
+  it('Empty matches snapshot', () => {
+    const tree = renderer
+      .create(<Divider />)
+      .toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+});

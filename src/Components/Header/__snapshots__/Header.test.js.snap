@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Empty matches snapshot 1`] = `
+<h1
+  className="Header"
+/>
+`;
+
+exports[`Header Empty with className matches snapshot 1`] = `
+<h1
+  className="Header"
+/>
+`;
+
+exports[`Header H5 matches snapshot 1`] = `
+<h5
+  className="Header"
+/>
+`;
+
+exports[`Header H6 matches snapshot 1`] = `
+<h6
+  className="Header"
+/>
+`;
+
+exports[`Header H6 matches snapshot 2`] = `
+<h4
+  className="Header"
+/>
+`;
+
+exports[`Header H6 matches snapshot 3`] = `
+<h3
+  className="Header"
+/>
+`;
+
+exports[`Header H6 matches snapshot 4`] = `
+<h2
+  className="Header"
+/>
+`;
+
+exports[`Header H6 matches snapshot 5`] = `
+<h1
+  className="Header"
+/>
+`;

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Logo Empty matches snapshot 1`] = `
+<i
+  className="Logo Logo-Small"
+/>
+`;
+
+exports[`Logo With className matches snapshot 1`] = `
+<i
+  className="Logo Logo-Small className"
+/>
+`;
+
+exports[`Logo With icon matches snapshot 1`] = `
+<i
+  className="Logo Logo-Small fas fa-bars"
+/>
+`;

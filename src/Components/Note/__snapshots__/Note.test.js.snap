@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Note Danger with className matches snapshot 1`] = `
+<div
+  className="Note Danger"
+/>
+`;
+
+exports[`Note Empty matches snapshot 1`] = `
+<div
+  className="Note Light"
+/>
+`;
+
+exports[`Note Primary matches snapshot 1`] = `
+<div
+  className="Note Primary"
+/>
+`;

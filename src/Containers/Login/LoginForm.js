@@ -51,7 +51,7 @@ const LoginForm = ({
   handleSubmit,
   handleReset,
 }) => (
-  <form onSubmit={handleSubmit}>
+  <form onSubmit={handleSubmit} className='LoginForm-Container'>
     <FormInput
       id='email'
       name='email'

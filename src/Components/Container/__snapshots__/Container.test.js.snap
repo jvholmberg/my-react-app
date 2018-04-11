@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container Empty matches snapshot 1`] = `
+<div
+  className="Container Container-Regular"
+/>
+`;
+
+exports[`Container Full matches snapshot 1`] = `
+<div
+  className="Container Container-Full"
+/>
+`;
+
+exports[`Container Regular matches snapshot 1`] = `
+<div
+  className="Container Container-Regular"
+  danger={true}
+/>
+`;
+
+exports[`Container With children matches snapshot 1`] = `
+<div
+  className="Container Container-Regular"
+>
+  <span>
+    child
+  </span>
+</div>
+`;
+
+exports[`Container With className matches snapshot 1`] = `
+<div
+  className="className Container Container-Regular"
+/>
+`;

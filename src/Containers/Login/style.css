@@ -1,3 +1,6 @@
+.LoginForm-Container .Button{
+  margin-right: .5rem;
+}
 .LoginForm-Error {
   padding: 1rem 0 0;
   font-weight: 300;

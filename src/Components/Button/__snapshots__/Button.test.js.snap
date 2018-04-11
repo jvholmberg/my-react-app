@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Danger with className matches snapshot 1`] = `
+<button
+  className="className Button Danger Button-Size-Medium"
+/>
+`;
+
+exports[`Button Empty matches snapshot 1`] = `
+<button
+  className="Button Link Button-Size-Medium"
+/>
+`;
+
+exports[`Button Primary matches snapshot 1`] = `
+<button
+  className="Button Primary Button-Size-Medium"
+/>
+`;

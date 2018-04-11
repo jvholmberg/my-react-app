@@ -4,16 +4,15 @@ import { connect } from 'react-redux';
 
 import { Container, Grid, Footer } from '../../Components';
 import LoginForm from './LoginForm';
-import LoginFormReducer, { submitLoginForm } from './reducer';
+
+import './style.css';
 
 const mapStateToProps = (state) => {
   return ({});
 };
 
 const mapDispatchToProps = (dispatch) => ({
-  actions: bindActionCreators({
-    submitLoginForm,
-  }, dispatch),
+  actions: bindActionCreators({}, dispatch),
 });
 
 const Login = ({ actions }) => (
@@ -21,10 +20,7 @@ const Login = ({ actions }) => (
     <Container regular>
       <Grid col3></Grid>
       <Grid col6>
-        <LoginForm onSubmit={(values) => {
-          console.log(values);
-          actions.submitLoginForm(values);
-        }} />
+        <LoginForm />
       </Grid>
       <Grid col3></Grid>
     </Container>
@@ -32,4 +28,3 @@ const Login = ({ actions }) => (
   </Container>
 );
 export default connect(mapStateToProps, mapDispatchToProps)(Login);
-export { LoginFormReducer }

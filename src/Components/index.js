@@ -8,6 +8,7 @@ import Logo from './Logo';
 import Section from './Section';
 import TextInput from './TextInput';
 import NavLinkExtended from './NavLinkExtended';
+import Note from './Note';
 
 /**
  * Appends a className to the provided string from props of type boolean
@@ -45,6 +46,7 @@ export {
   Header,
   Logo,
   NavLinkExtended,
+  Note,
   Section,
   TextInput,
 

@@ -15,42 +15,14 @@
   font-size: 1rem;
   font-weight: 300;
   box-sizing: border-box;
+  border: none;
 }
 .TextInput.Primary {
-  border: none;
   background-color: #f1f1f1;
-  border-bottom: .1rem solid #007bff;
-}
-.TextInput.Secondary {
-  border: none;
-  background-color: #f1f1f1;
-  border-bottom: .1rem solid #6c757d;
 }
 .TextInput.Success {
-  border: none;
-  background-color: #f1f1f1;
-  border-bottom: .1rem solid #28a745;
+  background-color: #d8f3d6;
 }
 .TextInput.Danger {
-  border: none;
-  background-color: #f1f1f1;
-  border-bottom: .1rem solid #dc3545;
-}
-.TextInput.Warning {
-  border: none;
-  background-color: #f1f1f1;
-  border-bottom: .1rem solid #ffc107;
-}
-.TextInput.Info {
-  border: none;
-  background-color: #f1f1f1;
-  border-bottom: .1rem solid #17a2b8;
-}
-.TextInput.Light {
-  background-color: #f1f1f1;
-  border: none;
-}
-.TextInput.Dark {
-  background-color: #bcbcbd;
-  border: none;
+  background-color: #ffe3e5;
 }

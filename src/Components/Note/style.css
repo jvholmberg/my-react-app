@@ -1,0 +1,48 @@
+.Note {
+  display: block;
+  margin-top: .5rem;
+  padding: .75rem 1rem;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 300;
+  box-sizing: border-box;
+}
+.Note.Primary {
+  border: none;
+  background-color: #f1f1f1;
+  border-left: .1rem solid #007bff;
+}
+.Note.Secondary {
+  border: none;
+  background-color: #f1f1f1;
+  border-left: .1rem solid #6c757d;
+}
+.Note.Success {
+  border: none;
+  background-color: #f1f1f1;
+  border-left: .1rem solid #28a745;
+}
+.Note.Danger {
+  border: none;
+  background-color: #ffe3e5;
+  color: #ca3a47;
+  border-left: .2rem solid #dc3545;
+}
+.Note.Warning {
+  border: none;
+  background-color: #f1f1f1;
+  border-left: .1rem solid #ffc107;
+}
+.Note.Info {
+  border: none;
+  background-color: #f1f1f1;
+  border-left: .1rem solid #17a2b8;
+}
+.Note.Light {
+  background-color: #f1f1f1;
+  border: none;
+}
+.Note.Dark {
+  background-color: #bcbcbd;
+  border: none;
+}

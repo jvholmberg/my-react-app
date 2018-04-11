@@ -7,7 +7,6 @@ import thunk from 'redux-thunk';
 
 // Project dependecies
 import navigationReducer from './Containers/Navigation/reducer';
-import loginFormReducer from './Containers/Login/reducer';
 
 const history = createHistory();
 const router = routerMiddleware(history);
@@ -15,7 +14,6 @@ const store = createStore(
   combineReducers({
     router: routerReducer,
     navigation: navigationReducer,
-    loginForm: loginFormReducer,
 }),
 composeWithDevTools(applyMiddleware(router, thunk)));
 

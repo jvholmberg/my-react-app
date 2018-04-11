@@ -4,11 +4,11 @@ import { CraftClassName } from '../';
 import './style.css';
 
 const TextInput = ({
-  primary, secondary, success, danger, warning, info, light, dark,
-  name, label, placeholder, password, required, onChange, className, ...props,
+  primary, success, danger,
+  name, label, placeholder, password, required, className,
+  input, ...props,
 }) => {
-  const type = { primary, secondary, success, danger, warning, info, light, dark };
-
+  const type = { primary, success, danger };
   let cn = CraftClassName(type, 'TextInput', 'Primary');
   if (className) cn = `${className} ${cn}`;
   return (

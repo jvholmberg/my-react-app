@@ -19,16 +19,6 @@ exports[`Container Regular matches snapshot 1`] = `
 />
 `;
 
-exports[`Container With children matches snapshot 1`] = `
-<div
-  className="Container Container-Regular"
->
-  <span>
-    child
-  </span>
-</div>
-`;
-
 exports[`Container With className matches snapshot 1`] = `
 <div
   className="className Container Container-Regular"

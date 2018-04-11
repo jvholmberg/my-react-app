@@ -8,7 +8,7 @@ exports[`Header Empty matches snapshot 1`] = `
 
 exports[`Header Empty with className matches snapshot 1`] = `
 <h1
-  className="Header"
+  className="className Header"
 />
 `;
 

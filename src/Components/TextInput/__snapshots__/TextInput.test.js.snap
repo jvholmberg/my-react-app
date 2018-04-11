@@ -100,21 +100,3 @@ exports[`TextInput With label matches snapshot 1`] = `
   </label>
 </div>
 `;
-
-exports[`TextInput matches snapshot 1`] = `
-<div
-  className="TextInput-Container"
->
-  <label
-    className="TextInput-Label"
-  >
-     
-    <input
-      className="TextInput Primary"
-      name={undefined}
-      placeholder={undefined}
-      type="text"
-    />
-  </label>
-</div>
-`;

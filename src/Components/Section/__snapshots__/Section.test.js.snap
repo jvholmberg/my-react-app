@@ -12,12 +12,6 @@ exports[`Section Left-aligned with className matches snapshot 1`] = `
 />
 `;
 
-exports[`Section Leftaligned with className matches snapshot 1`] = `
-<div
-  className="className Section Section-Normal Section-Left-Aligned"
-/>
-`;
-
 exports[`Section With className matches snapshot 1`] = `
 <div
   className="className Section Section-Normal Section-Left-Aligned"

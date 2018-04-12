@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginForm Empty matches snapshot 1`] = `
+<form
+  className="LoginForm-Container"
+  onSubmit={[Function]}
+>
+  <div
+    className="TextInput-Container"
+  >
+    <label
+      className="TextInput-Label"
+    >
+      Email
+       
+      <span
+        className="TextInput-Required"
+      >
+        *
+      </span>
+      <input
+        className="TextInput Primary"
+        id="email"
+        name="email"
+        onBlur={[Function]}
+        onChange={[Function]}
+        placeholder={undefined}
+        type="text"
+        value=""
+      />
+    </label>
+  </div>
+  <div
+    className="TextInput-Container"
+  >
+    <label
+      className="TextInput-Label"
+    >
+      Password
+       
+      <span
+        className="TextInput-Required"
+      >
+        *
+      </span>
+      <input
+        className="TextInput Primary"
+        id="password"
+        name="password"
+        onBlur={[Function]}
+        onChange={[Function]}
+        placeholder={undefined}
+        type="password"
+        value=""
+      />
+    </label>
+  </div>
+  <button
+    className="Button Primary Button-Size-Medium"
+    disabled={false}
+    type="submit"
+  >
+    Login
+  </button>
+  <button
+    className="Button Secondary Button-Size-Medium"
+    disabled={true}
+    onClick={[Function]}
+  >
+    Reset
+  </button>
+  <div />
+  <div />
+</form>
+`;

@@ -1,13 +1,12 @@
 import React from 'react';
-import renderer from 'react-test-renderer';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 import NavLinkExtended from './';
 
 describe('NavLinkExtended', () => {
-  it('Empty matches snapshot', () => {
-    const tree = renderer
-      .create(<NavLinkExtended />)
-      .toJSON();
-    expect(tree).toMatchSnapshot();
+  it('Only to specified matches snapshot', () => {
+    expect(shallow(
+      <NavLinkExtended to='/' />
+    )).toMatchSnapshot();
   });
 });

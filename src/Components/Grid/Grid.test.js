@@ -5,15 +5,13 @@ import Grid from './';
 
 describe('Grid', () => {
   it('Empty matches snapshot', () => {
-    const tree = renderer
-      .create(<Grid />)
-      .toJSON();
-    expect(tree).toMatchSnapshot();
+    expect(shallow(
+      <Grid />
+    )).toMatchSnapshot();
   });
   it('With className matches snapshot', () => {
-    const tree = renderer
-      .create(<Grid className='className' />)
-      .toJSON();
-    expect(tree).toMatchSnapshot();
+    expect(shallow(
+      <Grid className='className' />
+    )).toMatchSnapshot();
   });
 });

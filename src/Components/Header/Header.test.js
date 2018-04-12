@@ -1,55 +1,46 @@
 import React from 'react';
-import renderer from 'react-test-renderer';
 
 import Header from './';
 
 describe('Header', () => {
   it('H6 matches snapshot', () => {
-    const tree = renderer
-      .create(<Header h6 />)
-      .toJSON();
-    expect(tree).toMatchSnapshot();
+    expect(shallow(
+      <Header h6 />
+    )).toMatchSnapshot();
   });
   it('H5 matches snapshot', () => {
-    const tree = renderer
-      .create(<Header h5 />)
-      .toJSON();
-    expect(tree).toMatchSnapshot();
+    expect(shallow(
+      <Header h5 />
+    )).toMatchSnapshot();
   });
   it('H6 matches snapshot', () => {
-    const tree = renderer
-      .create(<Header h4 />)
-      .toJSON();
-    expect(tree).toMatchSnapshot();
+    expect(shallow(
+      <Header h4 />
+    )).toMatchSnapshot();
   });
   it('H6 matches snapshot', () => {
-    const tree = renderer
-      .create(<Header h3 />)
-      .toJSON();
-    expect(tree).toMatchSnapshot();
+    expect(shallow(
+      <Header h3 />
+    )).toMatchSnapshot();
   });
   it('H6 matches snapshot', () => {
-    const tree = renderer
-      .create(<Header h2 />)
-      .toJSON();
-    expect(tree).toMatchSnapshot();
+    expect(shallow(
+      <Header h2 />
+    )).toMatchSnapshot();
   });
   it('H6 matches snapshot', () => {
-    const tree = renderer
-      .create(<Header h1 />)
-      .toJSON();
-    expect(tree).toMatchSnapshot();
+    expect(shallow(
+      <Header h1 />
+    )).toMatchSnapshot();
   });
   it('Empty matches snapshot', () => {
-    const tree = renderer
-      .create(<Header />)
-      .toJSON();
-    expect(tree).toMatchSnapshot();
+    expect(shallow(
+      <Header />
+    )).toMatchSnapshot();
   });
   it('Empty with className matches snapshot', () => {
-    const tree = renderer
-      .create(<Header className='className' />)
-      .toJSON();
-    expect(tree).toMatchSnapshot();
+    expect(shallow(
+      <Header className='className' />
+    )).toMatchSnapshot();
   });
 });

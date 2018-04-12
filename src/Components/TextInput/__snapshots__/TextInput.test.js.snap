@@ -1,102 +1,822 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`TextInput Danger matches snapshot 1`] = `
-<div
-  className="TextInput-Container"
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TextInput
+    danger={true}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <label
+        className="TextInput-Label"
 >
-  <label
-    className="TextInput-Label"
-  >
-     
-    <input
-      className="TextInput Danger"
-      name={undefined}
-      placeholder={undefined}
-      type="text"
-    />
-  </label>
-</div>
+         
+        <input
+                className="TextInput Danger"
+                name={undefined}
+                placeholder={undefined}
+                type="text"
+        />
+</label>,
+      "className": "TextInput-Container",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          undefined,
+          " ",
+          undefined,
+          <input
+            className="TextInput Danger"
+            name={undefined}
+            placeholder={undefined}
+            type="text"
+/>,
+        ],
+        "className": "TextInput-Label",
+      },
+      "ref": null,
+      "rendered": Array [
+        undefined,
+        " ",
+        undefined,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "TextInput Danger",
+            "name": undefined,
+            "placeholder": undefined,
+            "type": "text",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "input",
+        },
+      ],
+      "type": "label",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <label
+          className="TextInput-Label"
+>
+           
+          <input
+                    className="TextInput Danger"
+                    name={undefined}
+                    placeholder={undefined}
+                    type="text"
+          />
+</label>,
+        "className": "TextInput-Container",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            undefined,
+            " ",
+            undefined,
+            <input
+              className="TextInput Danger"
+              name={undefined}
+              placeholder={undefined}
+              type="text"
+/>,
+          ],
+          "className": "TextInput-Label",
+        },
+        "ref": null,
+        "rendered": Array [
+          undefined,
+          " ",
+          undefined,
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "TextInput Danger",
+              "name": undefined,
+              "placeholder": undefined,
+              "type": "text",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+        ],
+        "type": "label",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
 `;
 
 exports[`TextInput Empty matches snapshot 1`] = `
-<div
-  className="TextInput-Container"
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TextInput />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <label
+        className="TextInput-Label"
 >
-  <label
-    className="TextInput-Label"
-  >
-     
-    <input
-      className="TextInput Primary"
-      name={undefined}
-      placeholder={undefined}
-      type="text"
-    />
-  </label>
-</div>
+         
+        <input
+                className="TextInput Primary"
+                name={undefined}
+                placeholder={undefined}
+                type="text"
+        />
+</label>,
+      "className": "TextInput-Container",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          undefined,
+          " ",
+          undefined,
+          <input
+            className="TextInput Primary"
+            name={undefined}
+            placeholder={undefined}
+            type="text"
+/>,
+        ],
+        "className": "TextInput-Label",
+      },
+      "ref": null,
+      "rendered": Array [
+        undefined,
+        " ",
+        undefined,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "TextInput Primary",
+            "name": undefined,
+            "placeholder": undefined,
+            "type": "text",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "input",
+        },
+      ],
+      "type": "label",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <label
+          className="TextInput-Label"
+>
+           
+          <input
+                    className="TextInput Primary"
+                    name={undefined}
+                    placeholder={undefined}
+                    type="text"
+          />
+</label>,
+        "className": "TextInput-Container",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            undefined,
+            " ",
+            undefined,
+            <input
+              className="TextInput Primary"
+              name={undefined}
+              placeholder={undefined}
+              type="text"
+/>,
+          ],
+          "className": "TextInput-Label",
+        },
+        "ref": null,
+        "rendered": Array [
+          undefined,
+          " ",
+          undefined,
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "TextInput Primary",
+              "name": undefined,
+              "placeholder": undefined,
+              "type": "text",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+        ],
+        "type": "label",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
 `;
 
 exports[`TextInput Typical censored matches snapshot 1`] = `
-<div
-  className="TextInput-Container"
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TextInput
+    required={true}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <label
+        className="TextInput-Label"
 >
-  <label
-    className="TextInput-Label"
-  >
-     
-    <span
-      className="TextInput-Required"
-    >
-      *
-    </span>
-    <input
-      className="TextInput Primary"
-      name={undefined}
-      placeholder={undefined}
-      type="text"
-    />
-  </label>
-</div>
+         
+        <span
+                className="TextInput-Required"
+        >
+                *
+        </span>
+        <input
+                className="TextInput Primary"
+                name={undefined}
+                placeholder={undefined}
+                type="text"
+        />
+</label>,
+      "className": "TextInput-Container",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          undefined,
+          " ",
+          <span
+            className="TextInput-Required"
+>
+            *
+</span>,
+          <input
+            className="TextInput Primary"
+            name={undefined}
+            placeholder={undefined}
+            type="text"
+/>,
+        ],
+        "className": "TextInput-Label",
+      },
+      "ref": null,
+      "rendered": Array [
+        undefined,
+        " ",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "*",
+            "className": "TextInput-Required",
+          },
+          "ref": null,
+          "rendered": "*",
+          "type": "span",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "TextInput Primary",
+            "name": undefined,
+            "placeholder": undefined,
+            "type": "text",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "input",
+        },
+      ],
+      "type": "label",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <label
+          className="TextInput-Label"
+>
+           
+          <span
+                    className="TextInput-Required"
+          >
+                    *
+          </span>
+          <input
+                    className="TextInput Primary"
+                    name={undefined}
+                    placeholder={undefined}
+                    type="text"
+          />
+</label>,
+        "className": "TextInput-Container",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            undefined,
+            " ",
+            <span
+              className="TextInput-Required"
+>
+              *
+</span>,
+            <input
+              className="TextInput Primary"
+              name={undefined}
+              placeholder={undefined}
+              type="text"
+/>,
+          ],
+          "className": "TextInput-Label",
+        },
+        "ref": null,
+        "rendered": Array [
+          undefined,
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "*",
+              "className": "TextInput-Required",
+            },
+            "ref": null,
+            "rendered": "*",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "TextInput Primary",
+              "name": undefined,
+              "placeholder": undefined,
+              "type": "text",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+        ],
+        "type": "label",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
 `;
 
 exports[`TextInput Typical censored with className matches snapshot 1`] = `
-<div
-  className="TextInput-Container"
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TextInput
+    className="className"
+    required={true}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <label
+        className="TextInput-Label"
 >
-  <label
-    className="TextInput-Label"
-  >
-     
-    <span
-      className="TextInput-Required"
-    >
-      *
-    </span>
-    <input
-      className="className TextInput Primary"
-      name={undefined}
-      placeholder={undefined}
-      type="text"
-    />
-  </label>
-</div>
+         
+        <span
+                className="TextInput-Required"
+        >
+                *
+        </span>
+        <input
+                className="className TextInput Primary"
+                name={undefined}
+                placeholder={undefined}
+                type="text"
+        />
+</label>,
+      "className": "TextInput-Container",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          undefined,
+          " ",
+          <span
+            className="TextInput-Required"
+>
+            *
+</span>,
+          <input
+            className="className TextInput Primary"
+            name={undefined}
+            placeholder={undefined}
+            type="text"
+/>,
+        ],
+        "className": "TextInput-Label",
+      },
+      "ref": null,
+      "rendered": Array [
+        undefined,
+        " ",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "*",
+            "className": "TextInput-Required",
+          },
+          "ref": null,
+          "rendered": "*",
+          "type": "span",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "className TextInput Primary",
+            "name": undefined,
+            "placeholder": undefined,
+            "type": "text",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "input",
+        },
+      ],
+      "type": "label",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <label
+          className="TextInput-Label"
+>
+           
+          <span
+                    className="TextInput-Required"
+          >
+                    *
+          </span>
+          <input
+                    className="className TextInput Primary"
+                    name={undefined}
+                    placeholder={undefined}
+                    type="text"
+          />
+</label>,
+        "className": "TextInput-Container",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            undefined,
+            " ",
+            <span
+              className="TextInput-Required"
+>
+              *
+</span>,
+            <input
+              className="className TextInput Primary"
+              name={undefined}
+              placeholder={undefined}
+              type="text"
+/>,
+          ],
+          "className": "TextInput-Label",
+        },
+        "ref": null,
+        "rendered": Array [
+          undefined,
+          " ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "*",
+              "className": "TextInput-Required",
+            },
+            "ref": null,
+            "rendered": "*",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "className TextInput Primary",
+              "name": undefined,
+              "placeholder": undefined,
+              "type": "text",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+        ],
+        "type": "label",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
 `;
 
 exports[`TextInput With label matches snapshot 1`] = `
-<div
-  className="TextInput-Container"
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TextInput
+    label="label"
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <label
+        className="TextInput-Label"
 >
-  <label
-    className="TextInput-Label"
-  >
-    label
-     
-    <input
-      className="TextInput Primary"
-      name={undefined}
-      placeholder={undefined}
-      type="text"
-    />
-  </label>
-</div>
+        label
+         
+        <input
+                className="TextInput Primary"
+                name={undefined}
+                placeholder={undefined}
+                type="text"
+        />
+</label>,
+      "className": "TextInput-Container",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          "label",
+          " ",
+          undefined,
+          <input
+            className="TextInput Primary"
+            name={undefined}
+            placeholder={undefined}
+            type="text"
+/>,
+        ],
+        "className": "TextInput-Label",
+      },
+      "ref": null,
+      "rendered": Array [
+        "label",
+        " ",
+        undefined,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "TextInput Primary",
+            "name": undefined,
+            "placeholder": undefined,
+            "type": "text",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "input",
+        },
+      ],
+      "type": "label",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <label
+          className="TextInput-Label"
+>
+          label
+           
+          <input
+                    className="TextInput Primary"
+                    name={undefined}
+                    placeholder={undefined}
+                    type="text"
+          />
+</label>,
+        "className": "TextInput-Container",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "label",
+            " ",
+            undefined,
+            <input
+              className="TextInput Primary"
+              name={undefined}
+              placeholder={undefined}
+              type="text"
+/>,
+          ],
+          "className": "TextInput-Label",
+        },
+        "ref": null,
+        "rendered": Array [
+          "label",
+          " ",
+          undefined,
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "TextInput Primary",
+              "name": undefined,
+              "placeholder": undefined,
+              "type": "text",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+        ],
+        "type": "label",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
 `;

@@ -14,6 +14,14 @@ import {
 
 import './style.css';
 
+const mapStateToProps = (state) => {
+  return ({});
+};
+
+const mapDispatchToProps = (dispatch) => ({
+  actions: bindActionCreators({}, dispatch),
+});
+
 const validationSchema = (values) => Yup.object().shape({
   email: Yup.string()
     .email('Invalid email address')
@@ -82,4 +90,4 @@ const Login = ({ actions }) => (
     <Footer />
   </Container>
 );
-export default connect(Login);
+export default connect(mapStateToProps, mapDispatchToProps)(Login);

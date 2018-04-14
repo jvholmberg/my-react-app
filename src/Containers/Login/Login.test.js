@@ -1,26 +1,36 @@
 import React from 'react';
-import renderer from 'react-test-renderer';
 import { mount } from 'enzyme';
 
 import Login from './';
-import LoginForm from './LoginForm';
 
-describe('LoginForm', () => {
+describe('Login', () => {
   it('Empty matches snapshot', () => {
-    const tree = renderer
-      .create(<LoginForm />)
-      .toJSON();
-    expect(tree).toMatchSnapshot();
+    expect(shallow(
+      <Login />
+    )).toMatchSnapshot();
   });
-  it('submit works', () => {
-    const submitMock = () => Promise.resolve();
-    const loginForm = mount(<LoginForm handleSubmit={submitMock} />);
-    expect(loginForm.state().isSubmitting).toBe(false);
-    loginForm.find('form').simulate('submit', {
-        preventDefault() {
-          // this gets called because it's sync
+  it('Should update an input when it is changed', () => {
+    const inputId = 'email';
+    const inputValue = 'test@example.com'
+
+    const tree = mount(<Form />);
+    const foo = tree
+      .find(Form)
+      .find('input')
+      .simulate('change', {
+        // you must add this next line as (Formik calls e.persist() internally)
+        persist: () => {},
+        // simulate changing e.target.name and e.target.value
+        target: {
+          id: inputId,
+          value: inputValue,
         },
       });
-    console.log(loginForm.state().isSubmitting);
+      const newValue = tree
+        .find(Form)
+        .find('input')
+        .props()
+        .value;
+      expect(newValue).toEqual(inputValue);
   });
 });

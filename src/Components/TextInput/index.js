@@ -4,13 +4,20 @@ import { CraftClassName } from '../';
 import './style.css';
 
 const TextInput = ({
-  primary, success, danger,
-  name, label, placeholder, password, required, className,
-  input, ...props,
+  name, label, placeholder, password, required,
+  // All touched inputs for the entire form, get by name
+  touched,
+  // Validation errors for the entire form, get by name
+  errors,
+  // Other props passed
+  ...props,
 }) => {
-  const type = { primary, success, danger };
-  let cn = CraftClassName(type, 'TextInput', 'Primary');
-  if (className) cn = `${className} ${cn}`;
+  const type = {
+    primary: touched && !touched[name],
+    success: errors && !errors[name],
+    danger: errors && touched && errors[name] && touched[name],
+  };
+  let className = CraftClassName(type, 'TextInput', 'Primary');
   return (
     <div className='TextInput-Container'>
       <label className='TextInput-Label'>
@@ -19,7 +26,7 @@ const TextInput = ({
           name={name}
           placeholder={placeholder}
           type={password ? 'password' : 'text'}
-          className={cn}
+          className={className}
           {...props} />
       </label>
     </div>

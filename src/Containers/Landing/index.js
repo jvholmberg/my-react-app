@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import {
-  Container, Divider, Footer, Section, Grid, Header, Logo, Button,
+  Container, Divider, Section, Grid, Header, Logo, Button,
 } from '../../Components';
 
 import './style.css';
@@ -59,7 +59,6 @@ const Landing = ()  => (
         </Grid>
       </Section>
     </Container>
-    <Footer />
   </Container>
 );
 export default Landing;

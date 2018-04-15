@@ -8,6 +8,8 @@ import Dashboard from './Containers/Dashboard';
 import Login from './Containers/Login';
 import Navigation from './Containers/Navigation';
 
+import { Footer } from './Components';
+
 // Styling (TODO: Add babel-plugin-react-css-modules)
 import './App.css';
 
@@ -17,6 +19,7 @@ const App = () => (
     <Route exact path="/" component={Landing} />
     <Route exact path="/login" component={Login} />
     <Route exact path="/dashboard" component={Dashboard} />
+    <Footer />
   </div>
 );
 

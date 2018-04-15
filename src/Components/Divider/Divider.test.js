@@ -4,7 +4,7 @@ import Divider from './';
 
 describe('Divider', () => {
   it('Empty matches snapshot', () => {
-    expect(shallow(
+    expect(render(
       <Divider />
     )).toMatchSnapshot();
   });

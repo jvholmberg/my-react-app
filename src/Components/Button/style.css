@@ -7,7 +7,6 @@
   cursor: pointer;
 }
 
-
 /**
  * Sizes
  */
@@ -71,5 +70,18 @@
 .Button.Light:hover,
 .Button.Dark:hover,
 .Button.Link:hover {
+  cursor: pointer;
   filter: brightness(85%);
+}
+.Button.Primary:disabled,
+.Button.Secondary:disabled,
+.Button.Success:disabled,
+.Button.Danger:disabled,
+.Button.Warning:disabled,
+.Button.Info:disabled,
+.Button.Light:disabled,
+.Button.Dark:disabled,
+.Button.Link:disabled {
+  cursor: wait;
+  filter: brightness(50%);
 }

@@ -1,8 +1,11 @@
 import React from 'react';
+import { Container, Section } from '../../Components';
 
 const Dashboard = ()  => (
-  <div>
-    
-  </div>
+  <Container full>
+    <Section>
+
+    </Section>
+  </Container>
 );
 export default Dashboard;

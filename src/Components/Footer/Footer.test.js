@@ -4,7 +4,7 @@ import Footer from './';
 
 describe('Footer', () => {
   it('Empty matches snapshot', () => {
-    expect(shallow(
+    expect(render(
       <Footer />
     )).toMatchSnapshot();
   });

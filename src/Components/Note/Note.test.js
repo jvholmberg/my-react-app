@@ -4,17 +4,17 @@ import Note from './';
 
 describe('Note', () => {
   it('Empty matches snapshot', () => {
-    expect(shallow(
+    expect(render(
       <Note />
     )).toMatchSnapshot();
   });
   it('Primary matches snapshot', () => {
-    expect(shallow(
+    expect(render(
       <Note primary />
     )).toMatchSnapshot();
   });
   it('Danger with className matches snapshot', () => {
-    expect(shallow(
+    expect(render(
       <Note className='className' danger />
     )).toMatchSnapshot();
   });

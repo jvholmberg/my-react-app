@@ -4,17 +4,17 @@ import Button from './';
 
 describe('Button', () => {
   it('Empty matches snapshot', () => {
-    expect(shallow(
+    expect(render(
       <Button />
     )).toMatchSnapshot();
   });
   it('Primary matches snapshot', () => {
-    expect(shallow(
+    expect(render(
       <Button primary />
     )).toMatchSnapshot();
   });
   it('Danger with className matches snapshot', () => {
-    expect(shallow(
+    expect(render(
       <Button className='className' danger />
     )).toMatchSnapshot();
   });

@@ -5,12 +5,12 @@ import Grid from './';
 
 describe('Grid', () => {
   it('Empty matches snapshot', () => {
-    expect(shallow(
+    expect(render(
       <Grid />
     )).toMatchSnapshot();
   });
   it('With className matches snapshot', () => {
-    expect(shallow(
+    expect(render(
       <Grid className='className' />
     )).toMatchSnapshot();
   });

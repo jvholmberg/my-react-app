@@ -4,22 +4,22 @@ import Container from './';
 
 describe('Container', () => {
   it('Empty matches snapshot', () => {
-    expect(shallow(
+    expect(render(
       <Container />
     )).toMatchSnapshot();
   });
   it('Full matches snapshot', () => {
-    expect(shallow(
+    expect(render(
       <Container full />
     )).toMatchSnapshot();
   });
   it('Regular matches snapshot', () => {
-    expect(shallow(
+    expect(render(
       <Container regular />
     )).toMatchSnapshot();
   });
   it('With className matches snapshot', () => {
-    expect(shallow(
+    expect(render(
       <Container className='className' />
     )).toMatchSnapshot();
   });

@@ -1,11 +1,10 @@
 import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
 
 import NavLinkExtended from './';
 
 describe('NavLinkExtended', () => {
   it('Only to specified matches snapshot', () => {
-    expect(shallow(
+    expect(render(
       <NavLinkExtended to='/' />
     )).toMatchSnapshot();
   });

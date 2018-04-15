@@ -7,7 +7,6 @@ import Yup from 'yup';
 import {
   Container,
   Grid,
-  Footer,
   TextInput,
   Button,
 } from '../../Components';
@@ -32,7 +31,6 @@ const validationSchema = (values) => Yup.object().shape({
 });
 
 const handleSubmit  = (values, actions) => {
-  console.log('handleSubmit');
   setTimeout(() => {
     alert(JSON.stringify(values, null, 2));
     actions.setSubmitting(false);
@@ -71,7 +69,7 @@ const Login = ({ actions }) => (
                 <Field
                   name="password"
                   render={({ field, form: { touched, errors } }) => (
-                    <TextInput label='Password' required touched={touched} errors={errors} {...field} />
+                    <TextInput label='Password' required password touched={touched} errors={errors} {...field} />
                   )} />
               <Button primary medium type='submit' disabled={formProps.isSubmitting}>
                 Log in
@@ -87,7 +85,6 @@ const Login = ({ actions }) => (
       </Grid>
       <Grid col3></Grid>
     </Container>
-    <Footer />
   </Container>
 );
 export default connect(mapStateToProps, mapDispatchToProps)(Login);

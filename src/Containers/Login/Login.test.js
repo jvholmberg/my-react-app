@@ -24,9 +24,7 @@ describe('Login', () => {
     const inputValue = 'test@example.com'
 
     const tree = mount(<Login store={store} />);
-    const foo = tree
-      .find(Formik)
-      .find('input[name="email"]')
+    tree.find('input[name="email"]')
       .simulate('change', {
         // you must add this next line as (Formik calls e.persist() internally)
         persist: () => {},
@@ -36,12 +34,11 @@ describe('Login', () => {
           value: inputValue,
         },
       });
-      // const newValue = tree
-      //   .find(Form)
-      //   .find('input')
-      //   .props()
-      //   .value;
-    // expect(newValue).toEqual(inputValue);
+      const newValue = tree
+        .find('input[name="email"]')
+        .props()
+        .value;
+    expect(newValue).toEqual(inputValue);
     tree.unmount()
   });
 });

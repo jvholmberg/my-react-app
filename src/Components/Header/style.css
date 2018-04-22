@@ -6,6 +6,7 @@ h5.Header,
 h6.Header {
   margin-bottom: .5rem;
   line-height: 1.2;
+  font-weight: 300;
 }
 
 h1.Header {

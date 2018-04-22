@@ -1,0 +1,28 @@
+.TextArea-Container {
+  padding: .5rem 0;
+}
+.TextArea-Label {
+  font-weight: 300;
+}
+.TextArea-Required {
+  color: #dc3545;
+}
+.TextArea {
+  display: block;
+  margin-top: .5rem;
+  padding: .5rem 1rem;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 300;
+  box-sizing: border-box;
+  border: none;
+}
+.TextArea.Primary {
+  background-color: #f1f1f1;
+}
+.TextArea.Success {
+  background-color: #d8f3d6;
+}
+.TextArea.Danger {
+  background-color: #ffe3e5;
+}

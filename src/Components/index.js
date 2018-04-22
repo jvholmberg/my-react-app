@@ -6,6 +6,7 @@ import Grid from './Grid';
 import Header from './Header';
 import Logo from './Logo';
 import Section from './Section';
+import TextArea from './TextArea';
 import TextInput from './TextInput';
 import NavLinkExtended from './NavLinkExtended';
 import Note from './Note';
@@ -48,6 +49,7 @@ export {
   NavLinkExtended,
   Note,
   Section,
+  TextArea,
   TextInput,
 
   // Utility functions
